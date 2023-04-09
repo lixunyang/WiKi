@@ -1,0 +1,19 @@
+
+1、在本地文件夹通过GitBranch命令Git init初始化文件，生成.git 文件夹
+	Git init
+
+2、先创建一个文分支test
+	git branch -m NoteBook
+
+3、关联GitHub远程分支
+	git remote add origin git@github.com:lixunyang/WiKi.git
+
+4、上传本文件夹中的文件到本地，“.”代表全部上传
+	git add  .
+
+3、添加上传文件的描述信息
+	git commit -m "操作GitHub上传文件步骤笔记" 
+
+7、将本地的分支代码推送到远程GitHub上
+	git pull origin NoteBook
+ 
